@@ -1,10 +1,10 @@
 <?php
 session_start();
-// Change the variables below to your connection info.
-$DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'root';
-$DATABASE_PASS = '';
-$DATABASE_NAME = 'shoppingcart';
+// Change the variables below to online connection info.
+$DATABASE_HOST = 'server205.web-hosting.com';
+$DATABASE_USER = 'nachhqbn_nachmans';
+$DATABASE_PASS = 'dsavin';
+$DATABASE_NAME = 'nachhqbn_shoppingcart';
 // Try and connect using the info above.
 try {
 	$pdo = new PDO('mysql:host=' . $DATABASE_HOST . ';dbname=' . $DATABASE_NAME . ';charset=utf8', $DATABASE_USER, $DATABASE_PASS);
